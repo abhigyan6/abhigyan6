@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Hey, I'm Abhigyan.</title><desc id="desc">Computer science student and curious builder. A midnight-blue canvas with bold cream lettering, coral accents, and a floating code window.</desc>
+<style>
+.cursor{animation:blink 1s steps(2,end) 4}
+.code{animation:appear 800ms cubic-bezier(.23,1,.32,1) both}
+@keyframes blink{50%{opacity:0}}
+@keyframes appear{from{opacity:0}to{opacity:1}}
+@media(prefers-reduced-motion:reduce){.cursor,.code{animation:none}}
+</style>
+<rect width="1200" height="360" rx="24" fill="#121c37"/>
+<circle cx="1080" cy="30" r="220" fill="#192747"/>
+<path d="M0 326H1200" stroke="#344464"/>
+<circle cx="57" cy="52" r="6" fill="#ff977d"/>
+<text x="78" y="58" fill="#a7badc" font-family="Verdana,sans-serif" font-size="17">abhigyan6</text>
+<text x="51" y="121" fill="#bfcde3" font-family="Verdana,sans-serif" font-size="27">Hey, I'm</text>
+<text x="47" y="209" fill="#fff4e4" font-family="Verdana,sans-serif" font-size="81" font-weight="700" letter-spacing="-5">Abhigyan.</text>
+<text x="55" y="260" fill="#bfcde3" font-family="Verdana,sans-serif" font-size="21">Computer science student. Curious builder.</text>
+<text x="55" y="302" fill="#ffad96" font-family="Verdana,sans-serif" font-size="16">Web development / automation / ideas worth trying</text>
+<g class="code" transform="translate(790 78) rotate(-4 165 105)">
+<rect x="12" y="16" width="340" height="206" rx="16" fill="#0c1428"/>
+<rect width="340" height="206" rx="16" fill="#213451" stroke="#536789"/>
+<path d="M0 42H340" stroke="#536789"/>
+<circle cx="24" cy="22" r="5" fill="#ff977d"/><circle cx="43" cy="22" r="5" fill="#f3cc83"/><circle cx="62" cy="22" r="5" fill="#80cdbb"/>
+<g font-family="monospace" font-size="20"><text x="26" y="84" fill="#9dd9ed">const builder = {</text><text x="42" y="121" fill="#fff4e4">curiosity: true,</text><text x="42" y="158" fill="#ffad96">next: "keep building"</text><text x="26" y="188" fill="#9dd9ed">};<tspan class="cursor">_</tspan></text></g>
+</g>
+<path d="M1128 283v32m-16-16h32" stroke="#ff977d" stroke-width="3"/>
+</svg>
