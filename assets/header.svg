@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">Abhigyan Dwivedi — code, curiosity, and late nights</title>
+<desc id="desc">A dark terminal-inspired banner with a small constellation of green circuit paths. Decorative lights fade in once.</desc>
+<style>
+.light { animation: reveal 800ms cubic-bezier(.23,1,.32,1) both; }
+.b { animation-delay:120ms } .c { animation-delay:240ms }
+@keyframes reveal { from { opacity:.15 } to { opacity:1 } }
+@media (prefers-reduced-motion:reduce) { .light { animation:none; } }
+</style>
+<rect width="1200" height="300" rx="18" fill="#0d1117"/>
+<rect x="1" y="1" width="1198" height="298" rx="17" fill="none" stroke="#30363d"/>
+<text x="58" y="65" fill="#7ee787" font-family="monospace" font-size="16" letter-spacing="3">ABHIGYAN6 / PERSONAL SPACE</text>
+<text x="55" y="141" fill="#f0f6fc" font-family="Arial,sans-serif" font-weight="700" font-size="54">Abhigyan Dwivedi</text>
+<text x="58" y="189" fill="#b1bac4" font-family="Arial,sans-serif" font-size="24">Code. Curiosity. Late nights.</text>
+<text x="58" y="251" fill="#7ee787" font-family="monospace" font-size="17">&gt; building one idea at a time</text>
+<g fill="none" stroke="#303f38" stroke-width="2"><path d="M850 65h120l45 45h100"/><path d="M810 150h135l45 45h125"/><path d="M880 245h80l45-45"/></g>
+<g fill="#7ee787"><circle class="light" cx="850" cy="65" r="6"/><circle class="light b" cx="1015" cy="110" r="6"/><circle class="light c" cx="1115" cy="195" r="6"/></g>
+<g fill="#0d1117" stroke="#7ee787" stroke-width="2"><circle cx="810" cy="150" r="5"/><circle cx="880" cy="245" r="5"/></g>
+</svg>
